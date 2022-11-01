@@ -22,13 +22,13 @@ export default function Profile(){
                 </div>
                 
                 <div className="links__logo">
-                    <img className="logo" src="./images/slack.png" alt="slack" />
-                    <img className="logo" src="./images/github.png" alt="github" />
+                    <a> <img className="logo" src="./images/slack.png" alt="slack" /> </a>
+                    <a href="https://github.com/JosephBusayo/hng-stage1-task"> <img className="logo" src="./images/github.png" alt="github" /> </a>
                 </div>
             </section>
 
             <footer className="footer">
-                <p>Zuri<span></span>Internship</p>
+                <p>Zuri<span> </span>Internship</p>
                 <p>HNG Internship 9 Frontend Task</p>
                 <img src="./images/I4G.png" alt="I4G" />
             </footer>

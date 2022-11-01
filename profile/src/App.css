@@ -20,6 +20,9 @@ a{
     margin-bottom: 30px
 }
 #profile__img{
+    width: 90px;
+    border-radius: 50%;
+    background-color: black;
     margin-bottom: 20px;
 }
 #slack{
@@ -30,7 +33,7 @@ a{
 .links{
     margin: 0 auto;
     margin-bottom: 50px;
-    width: 80vw
+    width: 90vw
 }
 .link-wrapper{
     display: flex;
@@ -57,7 +60,9 @@ a{
 
 /* footer */
 .footer{
+    border-top: 1px solid #EAECF0;;
     margin-top: 30px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
