@@ -22,13 +22,15 @@ a{
 #profile__img{
     margin-bottom: 20px;
 }
-#id{
-    font-size: 1.1rem
+#slack{
+    position: absolute;
+    left: -1000px
 }
-
 /* links*/
 .links{
-    margin-bottom: 50px
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 80vw
 }
 .link-wrapper{
     display: flex;
@@ -60,4 +62,20 @@ a{
     flex-direction: column;
     align-items: flex-start;
     gap: 20px
+}
+
+
+
+/* || DESKTOP SCREEN */
+@media screen and (min-width: 600px){
+   /* links */
+   .link{
+    font-size: 1.1rem
+   }
+
+   /* footer */
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
