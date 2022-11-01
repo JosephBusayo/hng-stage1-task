@@ -1,3 +1,63 @@
+/* || GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
 .App {
   text-align: center;
+  margin: 60px 20px 30px 20px;
+}
+a{
+    text-decoration: none;
+}
+
+/* || MOBILE SCREEN */
+
+/* Header */
+.img-wrapper{
+    margin-bottom: 30px
+}
+#profile__img{
+    margin-bottom: 20px;
+}
+#id{
+    font-size: 1.1rem
+}
+
+/* links*/
+.links{
+    margin-bottom: 50px
+}
+.link-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.link{
+    background: #EAECF0;
+    border-radius: 8px;
+    flex-grow: 1;
+    padding: 24px 32px;
+    color: black;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 0.9rem
+}
+.links__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+/* footer */
+.footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px
 }
