@@ -1,11 +1,12 @@
 import React from 'react';
+import '../styles/Profile.css'
 
 
 export default function Profile(){
     return (
         <section className="profile">
             <section className="img-wrapper">
-                <img id="profile__img" src="./images/profile__img.png" alt="profile image"/>
+                <img id="profile__img" src="./images/profile__img.png" alt="profile"/>
                 <h3 id= "twitter">Joseph-busayo</h3>
                 <h3 id="slack">Joseph-busayo</h3>
             </section>
