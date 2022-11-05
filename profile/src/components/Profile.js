@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/Profile.css'
+import {Link} from 'react-router-dom'
 
-
-export default function Profile(){
+export function Profile(){
     return (
         <section className="profile">
             <section className="img-wrapper">
@@ -20,6 +20,7 @@ export default function Profile(){
                     <a href="https://books.zuri.team/python-for-beginners?ref_id=Joseph-busayo" className="link">Python Books</a>
                     <a href="python-for-beginners?ref_id=<yourslackname>" className="link">Background Check for Coders</a>
                     <a href="python-for-beginners?ref_id=<yourslackname>" className="link">Design Books</a>
+                    <Link to="/contact" className="link">Contact me</Link>
                 </div>
                 
                 <div className="links__logo">

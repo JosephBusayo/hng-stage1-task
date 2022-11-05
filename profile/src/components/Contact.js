@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import '../styles/Contact.css'
 
 
-export default function Contact(){
+export function Contact(){
     //useState handling the form
     const [formData, setFormData] = useState(
         {
@@ -88,7 +88,8 @@ export default function Contact(){
                 />
                 <label htmlFor="agreement">You agree to providing your data to Joseph-busayo who may contact you.</label> <br/>
 
-                <button type="submit" className="form-btn">Send message</button>
+                {/* value of button disable changes on click of agreement  */}
+                <button disabled={!formData.agreement} type="submit" className="form-btn">Send message</button>
             </form>
 
             <footer className="footer">

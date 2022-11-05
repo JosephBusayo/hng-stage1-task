@@ -29,9 +29,13 @@
     margin-bottom: 20px;
     padding: 12px 14px;
     border-radius: 8px;
-
+    border: 1px solid #D0D5DD;
     width: 100%;
     height: 135px
+}
+.textinput:focused, .textarea:focus{
+    outline: none;
+    border: 1px solid #1570EF;
 }
 label{
     font-weight: 500;
@@ -47,7 +51,12 @@ label{
     padding: 12px 20px;
     width: 100%;
     color: white;
-    margin-top: 30px
+    margin-top: 30px;
+    cursor: pointer;
+}
+.form-btn:disabled{
+    background: #B2DDFF;
+    cursor: default;
 }
 
 
