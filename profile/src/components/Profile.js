@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Profile.css'
 
 
-export default  function Profile(){
+export default function Profile(){
     return (
         <section className="profile">
             <section className="img-wrapper">
