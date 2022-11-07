@@ -8,10 +8,12 @@ import {Contact} from './components/Contact'
 function App() {
   return (
     <div className="App">
+
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      
     </div>
   );
 }

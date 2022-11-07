@@ -72,12 +72,13 @@ export function Contact(){
                 /><br/>
 
                 <label htmlFor="firstname">Message</label><br/>
-                <input className="textarea" 
+                <textarea className="textarea"
+                    rows="5" cols="28"
                     placeholder="Send me a message and I'll reply you as soon as possible..." onChange={handleChange}
                     label="Message"
                     name= "message"
                     value= {formData.message}
-                /><br/>
+                ></textarea><br/>
 
                 <input className="checkbox"
                     type="checkbox"

@@ -33,7 +33,7 @@
     width: 100%;
     height: 135px
 }
-.textinput:focused, .textarea:focus{
+.textinput:focus, .textarea:focus{
     outline: none;
     border: 1px solid #1570EF;
 }
